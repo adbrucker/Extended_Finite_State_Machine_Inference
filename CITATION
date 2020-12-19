@@ -1,0 +1,78 @@
+To cite the use of this formal theory, please use
+
+  Michael Foster, Achim D. Brucker, Ramsay G. Taylor, and John Derrick. Inference of Extended 
+  Finite State Machines. In Archive of Formal Proofs, 2020. 
+  http://www.isa-afp.org/entries/Extended_Finite_State_Machine_Inference.html, 
+  Formal proof development
+
+A BibTeX entry for LaTeX users is
+
+@Article{ foster.ea:efsm-inference:2020,
+	abstract  = {In this AFP entry, we provide a formal implementation of a state-merging technique 
+                     to infer extended finite state machines (EFSMs), complete with output and update 
+                     functions, from black-box traces. In particular, we define the subsumption in 
+                     context relation as a means of determining whether one transition is able to account 
+                     for the behaviour of another. Building on this, we define the direct subsumption relation, 
+                     which lifts the subsumption in context relation to EFSM level such that we can use it 
+                     to determine whether it is safe to merge a given pair of transitions. Key proofs include 
+                     the conditions necessary for subsumption to occur and that subsumption and direct subsumption 
+                     are preorder relations. We also provide a number of different heuristics which can be used 
+                     to abstract away concrete values into registers so that more states and transitions can be 
+                     merged and provide proofs of the various conditions which must hold for these abstractions 
+                     to subsume their ungeneralised counterparts. A Code Generator setup to create executable 
+                     Scala code is also defined.},
+	author	  = {Michael Foster and Achim D. Brucker and Ramsay G. Taylor and John Derrick},
+	date	  = {2020-09-07},
+	file	  = {https://www.brucker.ch/bibliography/download/2020/foster.ea-efsm-inference-outline-2020.pdf},
+	filelabel = {Outline},
+	issn	  = {2150-914x},
+	journal	  = {Archive of Formal Proofs},
+	month	  = {sep},
+	note	  = {\url{http://www.isa-afp.org/entries/Extended_Finite_State_Machine_Inference.html}, Formal proof development},
+	pdf	  = {https://www.brucker.ch/bibliography/download/2020/foster.ea-efsm-inference-2020.pdf},
+	title	  = {Inference of Extended Finite State Machines},
+	url	  = {https://www.brucker.ch/bibliography/abstract/foster.ea-efsm-inference-2020},
+	year	  = {2020},
+} 
+
+An overview of the formalization is given in:
+
+  Michael Foster, Achim D. Brucker, Ramsay G. Taylor, Siobhán North, and John Derrick. Incorporating Data into 
+  EFSM Inference. In Software Engineering and Formal Methods (SEFM). Lecture Notes in Computer Science (11724), 
+  pages 257-272, Springer-Verlag, 2019, doi:10.1007/978-3-030-30446-1_14.
+  https://www.brucker.ch/bibliography/abstract/foster.ea-incorporating-2019
+
+A BibTeX entry for LaTeX users is
+
+@InCollection{ foster.ea:incorporating:2019,
+	abstract  = {Models are an important way of understanding software systems. If they do 
+                     not already exist, then we need to infer them from system behaviour. Most current 
+                     approaches infer classical FSM models that do not consider data, thus limiting 
+                     applicability. EFSMs provide a way to concisely model systems with an internal 
+                     state but existing inference techniques either do not infer models which allow 
+                     outputs to be computed from inputs, or rely heavily on comprehensive white-box 
+                     traces that reveal the internal program state, which are often unavailable.
+            
+                     In this paper, we present an approach for inferring EFSM models, including functions 
+                     that modify the internal state. Our technique uses black-box traces which only 
+                     contain information visible to an external observer of the system. We implemented 
+                     our approach as a prototype.},
+	address	  = {Heidelberg},
+	author	  = {Michael Foster and Achim D. Brucker and Ramsay G. Taylor and Siobh{\'a}n North and John Derrick},
+	booktitle = {Software Engineering and Formal Methods (SEFM)},
+	doi	  = {10.1007/978-3-030-30446-1_14},
+	editor	  = {Peter C. {\"O}lveczky and Gwen Sala{\"u}n},
+	isbn	  = {3-540-25109-X},
+	keywords  = {EFSM Inference, Model Inference, Reverse Engineering},
+	language  = {USenglish},
+	location  = {Oslo},
+	number	  = {11724},
+	pages	  = {257--272},
+	pdf	  = {https://www.brucker.ch/bibliography/download/2019/foster.ea-incorporating-2019.pdf},
+	publisher = {Springer-Verlag},
+	series	  = {Lecture Notes in Computer Science},
+	title	  = {Incorporating Data into EFSM Inference},
+	url	  = {https://www.brucker.ch/bibliography/abstract/foster.ea-incorporating-2019},
+	year	  = {2019},
+}
+
