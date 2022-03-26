@@ -1,7 +1,7 @@
 subsection\<open>Example\<close> 
 text\<open>This theory shows how contexts can be used to prove transition subsumption.\<close>
 theory Drinks_Subsumption
-imports "Extended_Finite_State_Machine_Inference.Subsumption" "Extended_Finite_State_Machines.Drinks_Machine_2"
+imports "Extended_Finite_State_Machine_Inference-devel.Subsumption" "Extended_Finite_State_Machines.Drinks_Machine_2"
 begin
 
 lemma stop_at_3: "\<not>obtains 1 c drinks2 3 r t"
